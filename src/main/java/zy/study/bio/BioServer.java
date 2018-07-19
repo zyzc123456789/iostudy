@@ -33,6 +33,7 @@ public class BioServer {
      *========================================================================*/
 
     public static void main(String[] args) {
+        System.out.println("Server Started");
         BioServer server = new BioServer();
         try {
             server.listen(server.createServer());
